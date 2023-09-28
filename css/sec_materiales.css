@@ -1,0 +1,56 @@
+.sec_materiales{
+    display: flex;
+    justify-content: center;
+}
+
+.sec_materiales .container{
+    background-color: var(--White);
+    border-radius: 25px;
+    margin: 0 40px 140px;
+    padding: 60px 60px 0px;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.sec_materiales .container .part{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.sec_materiales .container .part .text{
+
+    width: 180px;
+    position: relative;
+    top: -14px;
+}
+.sec_materiales .container img{
+    width: 50vw;
+    height: 220px;
+}
+
+
+.sec_materiales .container .part h2{
+    color: var(--Color1);
+}
+.sec_materiales .container .part h3{
+    color: var(--Color3);
+}
+
+.sec_materiales .container .part a,
+.sec_materiales .container .part a:visited{
+    font-size: 0.8rem;
+    background-color: var(--Color1);
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: .8s;
+}
+.sec_materiales .container .part a:hover,
+.sec_materiales .container .part a:focus{
+    color: var(--White);
+    background-color: var(--Color3);
+}

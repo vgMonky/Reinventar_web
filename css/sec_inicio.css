@@ -1,0 +1,40 @@
+
+.sec_inicio {
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+
+}
+
+.sec_inicio .container {
+    text-align: center;
+    width: 500px;
+}
+
+.sec_inicio h3{
+    margin-bottom: 50px;
+    margin-top: -20px;
+    line-height: 1.4rem;
+}
+
+
+.sec_inicio a,
+.sec_inicio a:visited{
+    background-color: var(--Color2);
+    border-radius: 5px;
+    padding: 10px 60px;
+    transition: .8s;
+}
+.sec_inicio a:hover,
+.sec_inicio a:focus{
+    background-color: var(--Color3);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 100px;
+    
+}
+

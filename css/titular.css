@@ -1,0 +1,9 @@
+.titular {
+    background-color: var(--Color2);
+    margin-bottom: 80px;
+}
+
+.titular h1{
+    color: var(--Color1);
+    text-align: center;
+}

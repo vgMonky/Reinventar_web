@@ -1,0 +1,41 @@
+.sec_faq .container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+.sec_faq .container .card{
+    border: 4px solid var(--White);
+    border-radius: 25px;
+    max-width: 190px;
+    padding: 0px 30px 20px;
+    margin-bottom: 120px;
+}
+
+.sec_faq .container h1{
+    font-size: 4rem;
+    color: var(--White);
+    margin-bottom: 25px;
+}
+.sec_faq .container h2{
+    color: var(--White);
+    margin-bottom: 25px;
+}
+.sec_faq .container h3{
+    color: var(--White);
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+.sec_faq .container a,
+.sec_faq .container a:visited{
+    font-size: 0.8rem;
+    text-decoration: underline;
+    transition: .8s;
+    font-weight: 600;
+}
+.sec_faq .container a:hover,
+.sec_faq .container a:focus{
+    color: var(--White);
+    background-color: var(--Color3);
+}
