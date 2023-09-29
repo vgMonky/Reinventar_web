@@ -38,6 +38,17 @@
     object-position: 100% 0;
 }
 
+.sec_materiales .container .link,
+.sec_materiales .container .link:visited{
+    color: var(--Color1);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.sec_materiales .container .link:hover,
+.sec_materiales .container .link:focus{
+    color: var(--Color3);
+}
 
 
 .sec_materiales .container .part h2{

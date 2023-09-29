@@ -92,3 +92,15 @@ h3{
         scale: 1;
     }
 }
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h2{
+    font-weight: 600;
+    font-size: 1rem;
+}
